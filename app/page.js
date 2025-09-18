@@ -50,7 +50,7 @@ export default function Home() {
       <div className={styles.container}>
         <h1 className={styles.title}>AI Travel Planner ✈️</h1>
         <p className={styles.description}>
-          Tell us your travel dreams, and we'll craft the perfect itinerary!
+          Tell us your travel dreams, and we will craft the perfect itinerary!
         </p>
 
         <form onSubmit={handleSubmit} className={styles.form}>
