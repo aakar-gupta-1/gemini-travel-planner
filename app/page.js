@@ -66,7 +66,7 @@ export default function Home() {
             type="text"
             value={budget}
             onChange={(e) => setBudget(e.target.value)}
-            placeholder="What's your budget? (e.g., Budget-friendly, Moderate, Luxury)"
+            placeholder="What&apos;s your budget? (e.g., Budget-friendly, Moderate, Luxury)" // This is the corrected line
             className={styles.input}
             required
           />
